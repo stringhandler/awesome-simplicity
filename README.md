@@ -11,10 +11,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [Official](#official)
 - [SimplicityHL](#simplicityhl)
 - [Projects](#projects)
-- [Tools & Libraries](#tools--libraries)
-- [Learning Resources](#learning-resources)
 - [Papers & Research](#papers--research)
-- [Community](#community)
 
 ---
 
@@ -41,6 +38,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 ## Papers & Research
 
 - [Simplicity: A New Language for Blockchains](https://arxiv.org/abs/1711.03028) - Russell O'Connor's foundational paper (2017).
+- [Building STARKs in Simplicity](https://starkware.co/blog/building-starks-in-simplicity/) - StarkWare blog post on implementing STARK proof systems using Simplicity.
 
 
 ---
