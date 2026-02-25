@@ -34,6 +34,9 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 > Applications and protocols built using Simplicity smart contracts in production.
 
 - [deadcat](https://github.com/Resolvr-io/deadcat) - Desktop app for trading binary prediction markets on the Liquid Network, using Simplicity covenants for on-chain settlement.
+- [fadroma](https://github.com/hackbg/fadroma) - Cross-chain dApp development framework with SimplicityHL integration for Bitcoin, Liquid, and Elements, built in TypeScript/Rust on the Deno runtime.
+- [simf](https://github.com/hackbg/simf) - Standalone WebAssembly SDK for compiling, deploying, and executing SimplicityHL smart contracts from any JavaScript/TypeScript environment.
+- [simf-app](https://github.com/hackbg/simf-app) - Prototype escrow, vault, and oracle application on Elements using SimplicityHL, demonstrating fund locking with conditions tied to external data attestations.
 
 ## Papers & Research
 
