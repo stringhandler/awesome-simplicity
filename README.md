@@ -10,6 +10,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 
 - [Official](#official)
 - [SimplicityHL](#simplicityhl)
+- [Simplicity Unchained](#simplicity-unchained)
 - [Projects](#projects)
 - [Papers & Research](#papers--research)
 
@@ -28,6 +29,14 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [SimplicityHL Examples](https://github.com/BlockstreamResearch/SimplicityHL/tree/master/examples) - Lots of example programs written in SimplicityHL.
 
 
+
+## Simplicity Unchained
+
+> Simplicity Unchained is an initiative by Blockstream Research to make Simplicity accessible on a public testnet, enabling developers to write, deploy, and experiment with Simplicity smart contracts without running a local node.
+
+- [Simplicity Unchained Testnet](https://testnet.simplicity-unchained.blockstream.com/) - Public testnet for deploying and interacting with Simplicity smart contracts in a live environment.
+- [simplicity-unchained](https://github.com/BlockstreamResearch/simplicity-unchained) - Core tooling and infrastructure for the Simplicity Unchained testnet, including node configuration and contract deployment utilities.
+- [simplicity-unchained-web-demo](https://github.com/BlockstreamResearch/simplicity-unchained-web-demo) - Browser-based demo for writing and executing Simplicity programs on the testnet, useful for learning and prototyping without a local setup.
 
 ## Projects
 
