@@ -53,6 +53,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [BlockstreamResearch/simplicityhl](https://github.com/BlockstreamResearch/simplicityhl) - Official SimplicityHL compiler, builds projects into Simplicity bytecode.
 - [simfony-cli](https://github.com/starkware-bitcoin/stark-symphony/tree/master/simfony-cli) - SimplicityHL compiler by StarkWare. Supports run, build, test, and deploy. (possibly unmaintained)
 - [simply](https://github.com/starkware-bitcoin/simply) - Another SimplicityHL compiler by StarkWare. Supports run, build, and deploy.(possibly unmaintained)
+- [go-simplicity](https://github.com/0ceanSlim/go-simplicity) - Transpiler that converts Go code into SimplicityHL, letting developers write Bitcoin/Elements smart contracts in idiomatic Go syntax.
 
 ### IDE
 
