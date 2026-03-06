@@ -9,8 +9,12 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 ## Contents
 
 - [Official](#official)
+- [Documentation](#documentation)
+- [Libraries](#libraries)
 - [SimplicityHL](#simplicityhl)
 - [Simplicity Unchained](#simplicity-unchained)
+- [Tools](#tools)
+- [Wallets](#wallets)
 - [Projects](#projects)
 - [Papers & Research](#papers--research)
 
@@ -18,17 +22,21 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 
 ## Official
 
-- [BlockstreamResearch/simplicity](https://github.com/BlockstreamResearch/simplicity) - The canonical Simplicity implementation in Haskell and C, by Blockstream/Elements Project.
-- [rust-simplicity](https://github.com/BlockstreamResearch/rust-simplicity) - Official Rust implementation of Simplicity, supporting encoding, decoding, type-checking, and execution.
+- [BlockstreamResearch/simplicity](https://github.com/BlockstreamResearch/simplicity) - The canonical Simplicity implementation in Haskell, C, and Coq, by Blockstream/Elements Project.
+- [rust-simplicity](https://github.com/BlockstreamResearch/rust-simplicity) - Official Rust implementation of Simplicity, supporting encoding, decoding, type-checking, and execution. Includes `simplicity-sys`, FFI bindings to the C library.
+
+## Documentation
+
+- [SimplicityHL Documentation](https://docs.simplicity-lang.org) - Official language reference and guides for SimplicityHL.
+
+
 
 ## SimplicityHL
 
 > Higher-level languages and compilers that target Simplicity.
 
 - [BlockstreamResearch/simplicityhl](https://github.com/BlockstreamResearch/simplicityhl) - A high-level language for writing Bitcoin smart contracts that compiles to Simplicity, with Rust-inspired syntax.
-- [SimplicityHL Examples](https://github.com/BlockstreamResearch/SimplicityHL/tree/master/examples) - Lots of example programs written in SimplicityHL.
-
-
+- [SimplicityHL Examples](https://github.com/BlockstreamResearch/SimplicityHL/tree/master/examples) - Lots of example programs written in SimplicityHL, including fee bumps, vaults, and covenants.
 
 ## Simplicity Unchained
 
@@ -38,14 +46,38 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [simplicity-unchained](https://github.com/BlockstreamResearch/simplicity-unchained) - Core tooling and infrastructure for the Simplicity Unchained testnet, including node configuration and contract deployment utilities.
 - [simplicity-unchained-web-demo](https://github.com/BlockstreamResearch/simplicity-unchained-web-demo) - Browser-based demo for writing and executing Simplicity programs on the testnet, useful for learning and prototyping without a local setup.
 
+## Tools
+
+### Compilers
+
+- [BlockstreamResearch/simplicityhl](https://github.com/BlockstreamResearch/simplicityhl) - Official SimplicityHL compiler, builds projects into Simplicity bytecode.
+- [simfony-cli](https://github.com/starkware-bitcoin/stark-symphony/tree/master/simfony-cli) - SimplicityHL compiler by StarkWare. Supports run, build, test, and deploy. (possibly unmaintained)
+- [simply](https://github.com/starkware-bitcoin/simply) - Another SimplicityHL compiler by StarkWare. Supports run, build, and deploy.(possibly unmaintained)
+
+### IDE
+
+- [simplicity-webide](https://ide.simplicity-lang.org/) - Web IDE for SimplicityHL. ([source](https://github.com/BlockstreamResearch/simplicity-webide))
+
+### Helpers
+
+- [simplicity-hal](https://github.com/BlockstreamResearch/hal-simplicity) - Extension of the [hal](https://github.com/stevenroose/hal) CLI tool with Simplicity and Elements support.
+- [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Simplicity.simplicityhl) - Syntax highlighting for SimplicityHL in Visual Studio Code. ([source](https://github.com/BlockstreamResearch/SimplicityHL/tree/master/vscode))
+
+## Wallets
+
+- [simfony-wallet](https://github.com/starkware-bitcoin/stark-symphony/tree/master/simfony-wallet) - Liquid Bitcoin wallet with Simplicity support, by StarkWare. (possibly unmaintained)
+- [simpiwallet](https://github.com/uncomputable/simpiwallet/) - Liquid Bitcoin wallet with Simplicity support (abandoned).
+
 ## Projects
 
-> Applications and protocols built using Simplicity smart contracts in production.
+> Applications and protocols built using Simplicity smart contracts.
 
 - [deadcat](https://github.com/Resolvr-io/deadcat) - Desktop app for trading binary prediction markets on the Liquid Network, using Simplicity covenants for on-chain settlement.
 - [fadroma](https://github.com/hackbg/fadroma) - Cross-chain dApp development framework with SimplicityHL integration for Bitcoin, Liquid, and Elements, built in TypeScript/Rust on the Deno runtime.
 - [simf](https://github.com/hackbg/simf) - Standalone WebAssembly SDK for compiling, deploying, and executing SimplicityHL smart contracts from any JavaScript/TypeScript environment.
 - [simf-app](https://github.com/hackbg/simf-app) - Prototype escrow, vault, and oracle application on Elements using SimplicityHL, demonstrating fund locking with conditions tied to external data attestations.
+- [stark-symphony / stark101](https://github.com/starkware-bitcoin/stark-symphony/tree/master/stark101) - STARK verifier implemented in SimplicityHL, by StarkWare.
+- [stark-symphony / stwo-verifier](https://github.com/starkware-bitcoin/stark-symphony/tree/master/stwo-verifier) - STWO verifier implemented in SimplicityHL, by StarkWare.
 
 ## Papers & Research
 
@@ -54,6 +86,10 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 
 
 ---
+
+## Acknowledgements
+
+- [distributed-lab/awesome-simplicity](https://github.com/distributed-lab/awesome-simplicity) - A prior awesome list that informed several entries in this one.
 
 ## Contributing
 
