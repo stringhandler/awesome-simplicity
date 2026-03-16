@@ -62,6 +62,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 ### Helpers
 
 - [simplicity-hal](https://github.com/BlockstreamResearch/hal-simplicity) - Extension of the [hal](https://github.com/stevenroose/hal) CLI tool with Simplicity and Elements support.
+- [asdf-simc](https://github.com/stringhandler/asdf-simc) - [asdf](https://asdf-vm.com) plugin for managing SimplicityHL compiler versions.
 - [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Simplicity.simplicityhl) - Syntax highlighting for SimplicityHL in Visual Studio Code. ([source](https://github.com/BlockstreamResearch/SimplicityHL/tree/master/vscode))
 
 ## Wallets
