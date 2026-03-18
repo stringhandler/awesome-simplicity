@@ -55,6 +55,10 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [simply](https://github.com/starkware-bitcoin/simply) - Another SimplicityHL compiler by StarkWare. Supports run, build, and deploy.(possibly unmaintained)
 - [go-simplicity](https://github.com/0ceanSlim/go-simplicity) - Transpiler that converts Go code into SimplicityHL, letting developers write Bitcoin/Elements smart contracts in idiomatic Go syntax.
 
+### Frameworks & SDKs
+
+- [smplx](https://github.com/BlockstreamResearch/smplx) - A blazingly-fast, UX-first Simplicity development framework in Rust, offering a CLI (`simplex`), SDK, and local Liquid regtest environment for building, testing, and deploying smart contracts on Liquid.
+
 ### IDE
 
 - [simplicity-webide](https://ide.simplicity-lang.org/) - Web IDE for SimplicityHL. ([source](https://github.com/BlockstreamResearch/simplicity-webide))
