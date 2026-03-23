@@ -16,6 +16,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [Tools](#tools)
 - [Wallets](#wallets)
 - [Projects](#projects)
+- [Mainnet Transactions](#mainnet-transactions)
 - [Papers & Research](#papers--research)
 
 ---
@@ -85,6 +86,12 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [simf-app](https://github.com/hackbg/simf-app) - Prototype escrow, vault, and oracle application on Elements using SimplicityHL, demonstrating fund locking with conditions tied to external data attestations.
 - [stark-symphony / stark101](https://github.com/starkware-bitcoin/stark-symphony/tree/master/stark101) - STARK verifier implemented in SimplicityHL, by StarkWare.
 - [stark-symphony / stwo-verifier](https://github.com/starkware-bitcoin/stark-symphony/tree/master/stwo-verifier) - STWO verifier implemented in SimplicityHL, by StarkWare.
+
+## Mainnet Transactions
+
+> Notable Simplicity transactions on the Liquid mainnet.
+
+- [First Simplicity transaction on Liquid mainnet](https://blockstream.info/liquid/tx/9d968310e55172871182cfc6fd33a5e2bc5c8ba8fc1f7c4ef5743163ac8b998a?expand) - The first ever Simplicity smart contract executed on the Liquid production network.
 
 ## Papers & Research
 
