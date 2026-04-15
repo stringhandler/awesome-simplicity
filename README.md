@@ -88,6 +88,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [stark-symphony / stwo-verifier](https://github.com/starkware-bitcoin/stark-symphony/tree/master/stwo-verifier) - STWO verifier implemented in SimplicityHL, by StarkWare.
 - [simplicity-travel-rule](https://github.com/stringhandler/simplicity-travel-rule) - FATF Travel Rule compliance for Liquid using SimplicityHL. Embeds encrypted sender/recipient data in transaction witnesses and uses an on-chain Simplicity program to prove the encryption is valid, ensuring regulatory data can be decrypted by exchanges and observers but not the public.
 - [shrincs-simplicity-verifier](https://github.com/BlockstreamResearch/shrincs-simplicity-verifier) - Post-quantum hash-based signature scheme verifiers (Lamport, WOTS, SHRINCS/SPHINCS+) implemented in Simplicity, by Blockstream Research. Work in progress; research use only.
+- [simplicity-lending](https://github.com/BlockstreamResearch/simplicity-lending) - Lending protocol implemented in Simplicity, by Blockstream Research.
 
 ## Mainnet Transactions
 
