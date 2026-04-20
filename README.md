@@ -29,6 +29,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 
 - [BlockstreamResearch/simplicity](https://github.com/BlockstreamResearch/simplicity) - The canonical Simplicity implementation in Haskell, C, and Coq, by Blockstream/Elements Project.
 - [rust-simplicity](https://github.com/BlockstreamResearch/rust-simplicity) - Official Rust implementation of Simplicity, supporting encoding, decoding, type-checking, and execution. Includes `simplicity-sys`, FFI bindings to the C library.
+- [simplicity-codespace](https://github.com/Blockstream/simplicity-codespace) - GitHub Codespace for getting started with Simplicity development, by Blockstream.
 
 ## Documentation
 
