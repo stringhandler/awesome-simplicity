@@ -6,7 +6,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 
 ---
 
-> **Disclaimer:** This list is maintained by a Blockstream employee in a personal capacity. The resources linked here are not endorsed by Blockstream and may not reflect Blockstream's views or interests.
+> **Disclaimer:** This list is maintained by a Blockstream employee in a personal capacity. The resources linked here are not endorsed by Blockstream and may not reflect Blockstream's views or interests. Links are not monitored for safety — inclusion does not imply any trust, audit, or endorsement of the linked software or projects. Use at your own risk.
 
 ---
 
