@@ -64,6 +64,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 ### Frameworks & SDKs
 
 - [smplx](https://github.com/BlockstreamResearch/smplx) - A blazingly-fast, UX-first Simplicity development framework in Rust, offering a CLI (`simplex`), SDK, and local Liquid regtest environment for building, testing, and deploying smart contracts on Liquid.
+- [smplx-template](https://github.com/Arvolear/smplx-template) - Template repository for bootstrapping new projects with the smplx framework.
 - [@hazbase/simplicity](https://github.com/hazbase/simplicity) - TypeScript/Node.js SDK for working with Simplicity contracts on Liquid, covering the full workflow from compiling SimplicityHL, deriving addresses, funding, and execution. Supports recursive covenants, LP fund settlement, and gasless transactions via relayer/sponsor wallets.
 
 ### IDE
