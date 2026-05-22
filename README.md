@@ -97,6 +97,17 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 - [simplicity-lending](https://github.com/BlockstreamResearch/simplicity-lending) - Lending protocol implemented in Simplicity, by Blockstream Research.
 - [precop](https://github.com/BitcoinWorldTrustFoundation/precop) - Predictive Covenant Oracle Protocol: a Bitcoin L1 DeFi protocol implementing Collateralized Debt Positions (CDPs) and a constant-product AMM/DEX as covenant-enforced UTXO state machines. Uses five Simfony/Simplicity contracts in a MAST structure, leveraging jets such as `output_amount`, `output_script_pubkey_hash`, `multiply_64`, and `ge_128` to enforce financial invariants trustlessly. Currently alpha, tested on Mutinynet.
 
+### Blockstream Turin Simplicity Hackathon
+
+> Projects submitted to the [Blockstream Turin Simplicity Hackathon](https://simplicity-turin.devpost.com/).
+
+- [SimplySave](https://github.com/piergiorgies/simply-save) - Non-custodial portfolio rebalancing wallet that automates asset allocation (e.g. LUSDT/LBTC) on Liquid without a trusted third party.
+- [LicenseLoop](https://github.com/GiacomoScagliola/BlockstreamTurinHackaton_UniTOTeam) - Prototype digital-license marketplace on Liquid backed by a Simplicity recursive resale covenant.
+- [DeadDrop Vault](https://github.com/Jamesuchechi/deaddrop-vault) - Bitcoin-native inheritance and emergency recovery system using Simplicity spending paths: owner, heir (after inactivity timeout), and joint owner–guardian recovery.
+- [Mosaik](https://github.com/kaleidoswap/mosaik) - Trustless, permissionless asset exchange on Liquid where each order is a UTXO (Tessera) governed by a Simplicity covenant enforcing trade terms, with Nostr-based orderbook discovery.
+- [PQ Liquid Wallet](https://github.com/smeneguz/pq-liquid-wallet) - Liquid wallet that signs covenant spends with hash-based Lamport signatures, providing quantum-resistant security built on Blockstream's on-chain Simplicity verifier.
+- [Duopay](https://devpost.com/software/duopay) - Trustless 2-of-2 co-buyer escrow in SimplicityHL on Liquid: funds release only when both buyers confirm delivery, or refund after timeout, with no middleman or admin key.
+
 ## Mainnet Transactions
 
 > Notable Simplicity transactions on the Liquid mainnet.
