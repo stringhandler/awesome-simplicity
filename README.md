@@ -34,6 +34,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 ## Documentation
 
 - [SimplicityHL Documentation](https://docs.simplicity-lang.org) - Official language reference and guides for SimplicityHL.
+- [Transaction Manifest Book](https://stringhandler.github.io/tx_manifest_book) - Cookbook-style guide for writing transaction manifests: portable, machine-readable descriptions of multi-UTXO transactions on Bitcoin and Liquid, including Simplicity covenant protocols.
 
 
 
@@ -81,6 +82,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 
 - [simfony-wallet](https://github.com/starkware-bitcoin/stark-symphony/tree/master/simfony-wallet) - Liquid Bitcoin wallet with Simplicity support, by StarkWare. (possibly unmaintained)
 - [simpiwallet](https://github.com/uncomputable/simpiwallet/) - Liquid Bitcoin wallet with Simplicity support (abandoned).
+- [txmanifest-wallet](https://github.com/stringhandler/txmanifest-wallet) - Declarative engine and CLI wallet that executes transaction manifests on Liquid/Elements. Write a `txmanifest.json` declaring what a transaction does and the wallet handles UTXO resolution, covenant address computation, PSET building, and signing, backed by SimplicityHL covenant programs.
 
 ## Projects
 
