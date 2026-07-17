@@ -120,6 +120,7 @@ Simplicity is a typed, combinator-based functional language for cryptocurrencies
 
 - [Simplicity: A New Language for Blockchains](https://arxiv.org/abs/1711.03028) - Russell O'Connor's foundational paper (2017).
 - [Building STARKs in Simplicity](https://starkware.co/blog/building-starks-in-simplicity/) - StarkWare blog post on implementing STARK proof systems using Simplicity.
+- [RGB assets on Liquid, explained](https://kaleidoswap.github.io/rgb-on-liquid-spike/) - KaleidoSwap proof of concept anchoring RGB assets natively on Liquid, where a SimplicityHL covenant locks an RGB seal UTXO so that consensus itself rejects any spend not carrying an `opret` RGB commitment at output 0 — introspection Bitcoin Script cannot express. Also covers cross-chain atomic swaps of RGB assets between Bitcoin and Liquid, and covenant patterns for RGB lending, vault custody, and market-maker inventory protection. ([code](https://github.com/kaleidoswap/rgb-on-liquid-spike), [article version](https://x.com/kaleidoswap/article/2077733143428190555))
 
 
 ---
